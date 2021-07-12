@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width:80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10%;
+}
+.padd{
+    padding:20px;
+}
+.header{
+    height: 50px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.opened{
+    display: none;
+}
+    
+.card{
+    height: 300px;
+    width: 18%;
+    /* background-color:red; */
+    margin-top: 20px;
+    background-size: cover;
+}
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+}
